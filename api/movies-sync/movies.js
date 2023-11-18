@@ -17,14 +17,14 @@ movieApi.create = async (request) => {
 */
     // Write your code here
 
-    movie.uid = user.userId;
-    movie.title = title;
-    movie.rating = rating;
-    movie.director = director;
-    movie.releaseYear = releaseYear;
-    movie.fare = fare;
-    movie.showTime = showTime;
-    movie.createdAt = timestamp;
+    movie.uid = _______;//  user.userId
+    movie.title = _______; // give title 
+    movie.rating = _______; // give rating 
+    movie.director = ________; // give  director 
+    movie.releaseYear = ________; // give releaseYear 
+    movie.fare = _______; //give fare
+    movie.showTime = ________;  // give showTime
+    movie.createdAt = _________;//give time
     movie.updatedAt = timestamp;
 
     return await database.client.collection(collections.MOVIES).insertOne(movie);

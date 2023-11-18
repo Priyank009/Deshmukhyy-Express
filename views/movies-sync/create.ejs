@@ -6,38 +6,42 @@
     <h5>Add new movie</h5>
 </div>
 
+<!-- This is the form in this form you have to change the questions according to your choice -->
+
 <div class="d-flex justify-content-center card-container">
     <form class="col-12 col-md-6 justify-content-center form-container" id="movie-form">
         <div class="mb-3">
-            <label for="title" class="form-label">Title for the movie</label>
+            <label for="title" class="form-label">___________________________</label>  <!--what is the title you want to enter inside-->
             <input required type="text" class="form-control" placeholder="Enter title" name="title" id="title">
         </div>
 
         <div class="mb-3">
             <label for="rating-selector" class="form-label">
-                Rate out of 5
+                <!-- Rate out of 5 -->
+                <!-- out of rating-->
+                ______________________
             </label>
             <input required type="range" class="form-range w-100" min="0" max="5" step="1" value="4" name="rating" id="rating-selector">
             <div id="range-value" class="text-sm-right text-muted">4</div>
         </div>
 
         <div class="mb-3">
-            <label for="showTime" class="form-label">Show time (when the movie starts)</label>
+            <label for="showTime" class="form-label">______________________________</label>  <!-- ask question ,enter the time when your movie starts-->
             <input required type="time" class="form-control" name="showTime" id="showTime">
         </div>
 
         <div class="mb-3">
-            <label for="fare" class="form-label">Ticket price</label>
+            <label for="fare" class="form-label">_________________________</label>  <!--enter the price of the ticket-->
             <input required type="number" min="1" step="1" class="form-control" placeholder="Enter price for tickets" name="fare" id="fare">
         </div>
 
         <div class="mb-3">
-            <label for="year" class="form-label">Year of the movie</label>
+            <label for="year" class="form-label">________________________</label>  <!--year of the movie-->
             <input required type="number" min="1800" max="2030" step="1" class="form-control" placeholder="Enter year of release" name="releaseYear" id="year">
         </div>
 
         <div class="mb-3">
-            <label for="director" class="form-label">Director (optional)</label>
+            <label for="director" class="form-label">__________________________________</label>   <!--ask about the director of the movie-->
             <input type="text" class="form-control" placeholder="Enter director's name" name="director" id="director">
         </div>
 
